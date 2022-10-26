@@ -40,17 +40,17 @@
   margin-top: -5px;
 }
 
-.catering {
+/* .catering {
   display: flex;
-  justify-content: left;
   flex-wrap: wrap;
-}
-
+  justify-content: flex-start;
+} */
 
 .card {
   width: 500px;
-  margin: auto;
-  margin-top: 20px;
+  /* margin: auto; */
+  /* margin-top: 20px; */
+  /* display: block; */
 }
 
 .card-body {
@@ -59,8 +59,51 @@
   text-align: center;
 }
 
+.kotak {
+  display: flex;
+  justify-content: center;
+}
+
 @media only screen and (max-width: 600px) {
+  .catering {
+    margin-left: 0;
+  }
+
   .card {
-    width: 170px;
+    width: 260px;
+  }
+  .card-body {
+    height: 50px;
+  }
+  
+  .card-title {
+    font-size: 14px;
   }
 }
+
+@media screen and (max-width: 1790px){
+  @media screen and (min-width: 1450px){
+    
+    .card {
+      width: 390px;
+    }
+  }
+}
+
+@media screen and (max-width: 1400px){
+  @media screen and (min-width: 1200px){
+    .catering, .judul{
+      /* display: block; */
+      margin-left: 200px;
+      /* width: 2000px; */
+    }
+    
+    .card {
+      width: 600px;
+    }
+  }
+}
+
+/* #a {
+  text-align: right;
+} */
