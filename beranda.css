@@ -1,16 +1,38 @@
 
 #tes {
-  width: 500px;
-  background-color: aqua;
+  position: fixed;
+  left: 0;
+  top: 200px;
+  /* width: 1000px; */
+  /* background-color: aqua; */
   transition: 1s;
+  /* justify-content: center;
+  display: flex; */
 }
 
-.logo {
+#logo {
   margin: auto;
   display: block;
-
+  width: 400px;
 }
+
+#judul {
+  font-size: 150px;
+}
+
+#sub-judul {
+  font-size: 70px;
+}
+/* .relative {
+  position: relative;
+}
+
+.sticky {
+  position: fixed;
+  background-color: aqua;
+} */
 
 .bg {
   background-color: aqua;
 }
+
