@@ -121,10 +121,14 @@
 }
 
 @media screen and (max-width: 1790px){
-  @media screen and (min-width: 1450px){
+  @media screen and (min-width: 1400px){
     
+    .catering {
+      margin-left: 40px;
+    }
+
     .card {
-      width: 390px;
+      width: 400px;
     }
   }
 }
@@ -133,12 +137,12 @@
   @media screen and (min-width: 1200px){
     .catering, .judul{
       /* display: block; */
-      margin-left: 200px;
+      margin-left: 50px;
       /* width: 2000px; */
     }
     
     .card {
-      width: 600px;
+      width: 300px;
     }
   }
 }
