@@ -1,0 +1,16 @@
+
+#tes {
+  width: 500px;
+  background-color: aqua;
+  transition: 1s;
+}
+
+.logo {
+  margin: auto;
+  display: block;
+
+}
+
+.bg {
+  background-color: aqua;
+}

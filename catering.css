@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.side-bar {
+  background-color: #98BC79;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 300px;
+  z-index: 99;
+}
+
+.fotoProfil {
+  margin: auto;
+  background-color: aqua;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+}
+
+.foto {
+  width: 150px;
+}
+
+.nav-item{
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+
+.nav-link {
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.nav-link .icon {
+  width: 25px;
+  margin-top: -5px;
+}
+
+.catering {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+
+.card {
+  width: 500px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.card-body {
+  background-color: #98BC79;
+  color: white;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    width: 170px;
+  }
+}
