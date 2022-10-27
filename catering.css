@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+.noHover {
+  pointer-events: none;
+}
+
 .side-bar {
   background-color: #98BC79;
   position: fixed;
@@ -10,6 +14,18 @@
   bottom: 0;
   width: 300px;
   z-index: 99;
+}
+
+.navbar-nav {
+  position: relative;
+}
+
+.hover {
+  position: absolute;
+  top: -15px;
+  right: 0;
+  width: 70px;
+  transition: .5s;
 }
 
 .fotoProfil {
@@ -39,24 +55,6 @@
   width: 25px;
   margin-top: -5px;
 }
-
-
-.navbar-nav {
-  position: relative;
-}
-
-.hover {
-  position: absolute;
-  top: -15px;
-  right: 0;
-  width: 70px;
-  transition: .5s;
-}
-
-/* .navbar-nav:hover .hover {
-  top: 100px;
-  transition: 1s;
-} */
 
 /* .catering {
   display: flex;
@@ -127,28 +125,39 @@
 }
 
 @media screen and (max-width: 1790px){
-  @media screen and (min-width: 1400px){
+  @media screen and (min-width: 1450px){
     
-    .catering {
-      margin-left: 40px;
-    }
-
     .card {
-      width: 400px;
+      width: 390px;
     }
   }
 }
 
 @media screen and (max-width: 1400px){
+  .judull {
+    position: fixed;
+    line-height: 3;
+    top: -24px;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background-color: white;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+    z-index: 99;
+  }
+
+  .catering {
+    margin-top: 70px;
+  }
   @media screen and (min-width: 1200px){
     .catering, .judul{
       /* display: block; */
-      margin-left: 50px;
+      margin-left: 80px;
       /* width: 2000px; */
     }
     
     .card {
-      width: 300px;
+      width: 600px;
     }
   }
 }
