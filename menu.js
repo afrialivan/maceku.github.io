@@ -31,6 +31,6 @@ function hover6(){
 }
 
 function out() {
-  hov.style.top='-15px'
+  hov.style.top='54px'
   // li.forEach(e => e.style.color = `black`)
 }

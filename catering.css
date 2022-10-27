@@ -50,7 +50,13 @@
   top: -15px;
   right: 0;
   width: 70px;
+  transition: .5s;
 }
+
+/* .navbar-nav:hover .hover {
+  top: 100px;
+  transition: 1s;
+} */
 
 /* .catering {
   display: flex;
