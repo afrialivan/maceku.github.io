@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.noHover {
+  pointer-events: none;
+}
+
+.side-bar {
+  background-color: #98BC79;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 300px;
+  z-index: 99;
+}
+
+.navbar-nav {
+  position: relative;
+}
+
+.hover {
+  position: absolute;
+  top: -15px;
+  right: 0;
+  width: 70px;
+  transition: .5s;
+}
+
+.fotoProfil {
+  margin: auto;
+  background-color: aqua;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+}
+
+.foto {
+  width: 150px;
+}
+
+.nav-item{
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+
+.nav-link {
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.nav-link .icon {
+  width: 25px;
+  margin-top: -5px;
+}
+
+.chat {
+  width: 85%;
+  margin: auto;
+}
+
+.chat .logo {
+  width: 150px;
+}
+
+
+
+.navigasi {
+  /* display: flex; */
+  justify-content: center;
+  position: fixed;
+  height: 80px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #98BC79;
+}
+
+.navi {
+  text-decoration: none;
+  color: white;
+  width: 70px;
+  margin-top: 13px;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: center;
+}
+
+.navigasii {
+  /* display: inline-block; */
+  width: 35px;
+}
+
+@media only screen and (max-width: 600px) {
+}
+
+@media screen and (max-width: 1790px){
+  @media screen and (min-width: 1450px){
+    
+  }
+}
+
+@media screen and (max-width: 1400px){
+  @media screen and (min-width: 1200px){
+
+  }
+}
