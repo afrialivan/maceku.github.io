@@ -125,7 +125,7 @@
 }
 
 @media screen and (max-width: 1790px){
-  @media screen and (min-width: 1450px){
+  @media screen and (min-width: 1400px){
     
     .card {
       width: 390px;
@@ -133,7 +133,7 @@
   }
 }
 
-@media screen and (max-width: 1400px){
+@media screen and (max-width: 1350px){
   .judull {
     position: fixed;
     line-height: 3;
@@ -161,3 +161,4 @@
     }
   }
 }
+
